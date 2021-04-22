@@ -10,6 +10,7 @@ class BlogsController < ApplicationController
   end
 
   def index
+    @blogs=Blog.all
   end
 
   def show
